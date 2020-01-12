@@ -185,7 +185,7 @@ return [
 
         
         // DataTables
-        Yajra\DataTables\DataTablesServiceProvider::class,
+        // Yajra\DataTables\DataTablesServiceProvider::class,
 
     ],
 
@@ -246,7 +246,7 @@ return [
         'Flash'     => Laracasts\Flash\Flash::class,
 
         // DataTables
-        'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+        // 'DataTables' => Yajra\DataTables\Facades\DataTables::class,
 
     ],
 

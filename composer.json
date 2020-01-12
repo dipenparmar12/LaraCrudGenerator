@@ -18,8 +18,7 @@
         "laravelcollective/html": "^6.0",
         "infyomlabs/adminlte-templates": "6.0.x-dev",
         "doctrine/dbal": "~2.3",
-        "infyomlabs/generator-builder": "dev-master",
-        "yajra/laravel-datatables-oracle":"~9.0"
+        "infyomlabs/generator-builder": "dev-master"
 
     },
     "require-dev": {
