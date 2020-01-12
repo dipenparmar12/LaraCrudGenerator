@@ -175,6 +175,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //  By InfyOm
+        \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
+
+        // DataTables
+        Yajra\DataTables\DataTablesServiceProvider::class,
+
     ],
 
     /*
@@ -225,6 +231,15 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+
+        // BY InfyOM
+        'Form'      => Collective\Html\FormFacade::class,
+        'Html'      => Collective\Html\HtmlFacade::class,
+        'Flash'     => Laracasts\Flash\Flash::class,
+
+        // DataTables
+        'DataTables' => Yajra\DataTables\Facades\DataTables::class,
 
     ],
 
