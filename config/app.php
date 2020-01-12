@@ -177,7 +177,13 @@ return [
 
         //  By InfyOm
         \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
+        \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
+        \InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
+        
         // DataTables
         Yajra\DataTables\DataTablesServiceProvider::class,
 
