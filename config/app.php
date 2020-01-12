@@ -181,7 +181,7 @@ return [
         Laracasts\Flash\FlashServiceProvider::class,
         \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
         \InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
-        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+//        Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
         
         // DataTables
@@ -237,6 +237,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
 
 
         // BY InfyOM
